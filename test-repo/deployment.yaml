@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: test-repo
-          image: quay-registry-quay-openshift-operators.apps.rnd.ocp.local/test-repo/test-repo:v1.0
+          image: core.harbor.k8s.local/library/test-repo:1.0
           ports:
             - containerPort: 8080
               protocol: TCP
