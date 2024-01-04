@@ -3,7 +3,7 @@ namespace: test-repo
 
 image:
   name: uay-registry-quay-openshift-operators.apps.rnd.ocp.local/test-repo/test-repo
-  tag: 1.0
+  tag: "1.3"
 
 port: 80
 portName: http
